@@ -1,0 +1,21 @@
+/* Media Query */
+/* type: screen, soeech, print, all */
+@media screen and (max-width:1000px){
+
+}
+    /* code css */
+h1{
+    background-color: red;
+    color: white;
+}
+/* Desktop First */
+@media screen and (max-width:1200px){
+    h1{
+        background-color: yellow;
+    }
+}
+@media screen and (max-width:900px){
+    h1{
+        background-color: blue;
+    }
+}
