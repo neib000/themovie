@@ -520,18 +520,7 @@ footer ul li a:hover .fab {
 }
 /* Responsive */
 
-@media screen and (max-width:776px){
-    .movie-tabs img{
-        width: 100%;
-    }
-    .run_time{
-        text-align: left;
-    }
-    .nav-tabs{
-        border-bottom:none ;
-    }
-}
-@media screen and (max-width:992px){
+@media screen and (max-width:990px){
     .carousel-item .carousel-caption{
         opacity: 0;
     }
@@ -544,5 +533,24 @@ footer ul li a:hover .fab {
     }
     #movieNavBar .nav-item a{
         color: white;
+    }
+}
+@media screen and (max-width:776px){
+    .movie-tabs img{
+        width: 100%;
+    }
+    .run_time{
+        text-align: left;
+    }
+    .nav-tabs{
+        border-bottom:none ;
+    }
+}
+@media screen and (max-width:576px){
+    .movie-tabs .viewing-times{
+        display: block;
+    }
+    .movie-tabs .time_btn{
+        margin: 1em 0;
     }
 }
