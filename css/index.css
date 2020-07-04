@@ -501,6 +501,26 @@ footer ul li a:hover .fab {
 .slider-for .fa.fa-calendar-week{
     margin: 0 10px;
 }
+.slick-slider .slick-arrow {
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+  
+    transition: all 300ms ease-in-out;
+  
+    background: linear-gradient(to bottom,#fbbd61, #ec7532);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .slick-slider .slick-arrow.left {
+    left: -5%;
+  }
+  
+  .slick-slider .slick-arrow.right {
+    right: -5%;
+  }
 .comingsoon__img{
     position: relative;
     padding: 0;
