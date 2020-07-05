@@ -574,4 +574,13 @@ footer ul li a:hover .fab {
     .movie-tabs .time_btn{
         margin: 1em 0;
     }
+    .navbar-brand img{
+        width: 8em;
+    }
+    .sticky{
+        top: -3.5%;
+    }
+    header .navbar{
+        padding: 0.8rem 1rem;
+    }
 }
