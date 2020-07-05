@@ -510,7 +510,6 @@ footer ul li a:hover .fab {
     transition: all 300ms ease-in-out;
   
     background: linear-gradient(to bottom,#fbbd61, #ec7532);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
